@@ -1,4 +1,3 @@
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -29,6 +28,7 @@ public class AtividadeOrdenacao02 {
         addAll("src/couting.txt");
 
         mergeSort(listNumeros);
+        //quickSort(listNumeros);
 
         for (int i = 0; i < listNumeros.size(); i++) {
             System.out.println(listNumeros.get(i));
